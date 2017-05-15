@@ -1,0 +1,24 @@
+/* line 1, ../../../resources/assets/sass/components/ribbon.scss */
+.ribbons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 6, ../../../resources/assets/sass/components/ribbon.scss */
+.ribbons .ribbon {
+  width: 100%;
+  background-color: #67ccf3;
+  padding: 40px 0 40px 0;
+}
+/* line 11, ../../../resources/assets/sass/components/ribbon.scss */
+.ribbons .ribbon .ribbon-content {
+  margin: 0 8% 0 8%;
+}
+/* line 13, ../../../resources/assets/sass/components/ribbon.scss */
+.ribbons .ribbon .ribbon-content .logo {
+  height: 256px;
+  width: 256px;
+  border-radius: 50%;
+  background-color: white;
+}

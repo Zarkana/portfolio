@@ -1,0 +1,60 @@
+/* line 1, ../sass/base.scss */
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+
+/* line 11, ../sass/base.scss */
+.full-height {
+  height: 100vh;
+}
+
+/* line 15, ../sass/base.scss */
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 21, ../sass/base.scss */
+.position-ref {
+  position: relative;
+}
+
+/* line 25, ../sass/base.scss */
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+/* line 31, ../sass/base.scss */
+.content {
+  text-align: center;
+}
+
+/* line 35, ../sass/base.scss */
+.title {
+  font-size: 84px;
+}
+
+/* line 39, ../sass/base.scss */
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 49, ../sass/base.scss */
+.m-b-md {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,21 @@
+.ribbons{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  .ribbon{
+    width: 100%;
+    background-color: #67ccf3;
+    padding: 40px 0 40px 0;
+
+    .ribbon-content{
+      margin: 0 8% 0 8%;
+      .logo{
+        height: 256px;
+        width: 256px;
+        border-radius: 50%;
+        background-color: white;
+      }
+    }
+  }
+}

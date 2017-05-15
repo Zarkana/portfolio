@@ -1,0 +1,64 @@
+/* line 1, ../../../resources/assets/sass/modules/footer.scss */
+footer {
+  height: 66px;
+  background-color: #262626;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+/* line 7, ../../../resources/assets/sass/modules/footer.scss */
+footer .center-buttons {
+  width: 50%;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+}
+/* line 13, ../../../resources/assets/sass/modules/footer.scss */
+footer .right-buttons {
+  width: 25%;
+  right: 0;
+  position: absolute;
+  text-align: right;
+}
+/* line 19, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin: 0 10px;
+  background-color: white;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-size: 64px 64px;
+  background-size: 70% 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 32, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.email {
+  background-image: url(/images/mail-black-64.png);
+}
+/* line 34, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.email:hover {
+  background-color: #dd4b39;
+  background-image: url(/images/mail-white-64.png);
+}
+/* line 39, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.linkedin {
+  background-image: url(/images/linkedin-black-64.png);
+}
+/* line 41, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.linkedin:hover {
+  background-color: #0077B5;
+  background-image: url(/images/linkedin-white-64.png);
+}
+/* line 46, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.github {
+  background-image: url(/images/github-black-64.png);
+}
+/* line 48, ../../../resources/assets/sass/modules/footer.scss */
+footer .footer-button.github:hover {
+  background-image: url(/images/github-white-64.png);
+  background-color: black;
+}

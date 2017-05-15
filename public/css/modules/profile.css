@@ -1,0 +1,30 @@
+/* line 1, ../../../resources/assets/sass/modules/profile.scss */
+.profile {
+  padding-top: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 9, ../../../resources/assets/sass/modules/profile.scss */
+.profile .title {
+  font-size: 1em !important;
+}
+/* line 12, ../../../resources/assets/sass/modules/profile.scss */
+.profile .subtitle {
+  margin-top: 8px;
+  font-size: 15px;
+}
+/* line 16, ../../../resources/assets/sass/modules/profile.scss */
+.profile .quote {
+  font-size: 18px;
+  display: none;
+}
+/* line 20, ../../../resources/assets/sass/modules/profile.scss */
+.profile img {
+  width: 192px;
+  border-radius: 50%;
+  border: 1px solid white;
+  -webkit-box-shadow: 3px 5px 18px 4px #aaa;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+}
